@@ -1,0 +1,429 @@
+html{
+    font-family: 'Montserrat', 'Roboto';
+}
+
+nav{
+    background-color: #63458a;   
+    font-size: 20%;
+    color: antiquewhite;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-content: center;
+    display: none;
+
+}
+
+.hamburger{
+    display: inline-block;
+}
+
+li a{
+    color: antiquewhite;
+    text-decoration: none;
+    margin: 30%;
+
+}
+
+ul li{
+    align-content: flex-start;
+    text-align: center;
+}
+.logo img{
+    width: 20%;
+}
+
+.hamburger {
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+}
+
+
+header{
+    background: url(../img/bg-banner-claro.png);
+    min-height: 10vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+
+}
+
+.perfil-mulher {
+    width: 50%;
+}
+
+.perfil-mulher h1{
+    font-size: 30px;
+    text-align: center; 
+
+    color: antiquewhite;
+
+}
+
+.paragrafos-personalidade p{
+    width: 80%;
+    color: #63458a;
+    margin: 0 auto;
+}
+
+.paragrafos-personalidade-2 p{
+    width: 80%;
+    color: #63458a;
+    margin: 0 auto;
+}
+
+.quadrado-personalidade h3{
+    color: #63458a;
+    width: 66%;
+}
+
+.purple{
+    width: 100%;
+    height: 100px;
+    background-color: #63458a;
+}
+
+
+.secao1 h2{
+    color: #63458a;
+    text-align: center;
+}
+
+
+
+.container p{
+    text-align: left;
+    padding: 2%;
+    width: 100%;
+}
+
+.container{
+
+   
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container img{
+    width: 150px;
+    height: 200px;
+}
+
+.quadrado-personalidade{
+    border-color: #63458a;
+    border-style: solid;
+    border-width: 2px;
+    width: 100%;
+
+}
+
+.quadrado-personalidade h4{
+    text-align: center;
+    color: #63458a;
+    font-size: 25px;
+    
+}
+
+#titulo-secao2, p{
+    text-align: left;
+}
+
+.purple{
+    width: 100%;
+    height: 100px;
+    background-color: #63458a;
+}
+
+.light-purple{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #e4b7e5;
+    color: #63458a;
+    width: 100%;
+    padding: 1%;
+
+}
+
+.light-purple img{
+    width: 80px;
+    height: 80px;
+}
+
+.descricao{
+    width: 100%;
+}
+
+.descricao p{
+    color: #63458a;
+}
+
+
+.light-purple-opcoes{
+   
+    background-color: #e4b7e5;
+    color: #63458a;
+    width: 100%;
+
+}
+
+.light-purple-opcoes p, h3{
+    color: antiquewhite;
+}
+
+
+.secao3 h2{
+    color: #63458a;
+    text-align: center;
+}
+
+
+footer{
+   
+    background-color: rgb(85, 80, 80);
+    padding: 1%;
+    display: flex;
+
+    
+}
+
+footer img{
+    width: 40%;
+}
+
+
+
+.footer{
+
+   text-align: center;
+
+}
+
+.footer h3,
+.footer p{
+    text-align: center;
+    color: #d1d1d1;
+    
+}
+
+
+.footer-pt2{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+
+}
+
+.footer-pt2 img{
+    width: 7%;
+    height: 1%;
+    align-items: center;
+    display: flex;
+}
+
+.copyright h4{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+.copyright{
+    background-color: rgb(65, 59, 59);
+    height: 2%;
+    
+}
+
+
+@media (min-width: 1024px){
+
+    html{
+        font-family: 'Montserrat', 'Roboto';
+    }
+    
+    nav{
+        background-color: #63458a;   
+        font-size: 30px;
+        color: antiquewhite;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        align-content: center;
+        font-size: 20px;
+     
+     
+    
+    }
+
+    ul li{
+        margin-left: 10px;
+    }
+    
+    .hamburger{
+        display: none;
+    }
+.purple{
+    width: 100%;
+    height: 300px;
+    background-color: #63458a;
+}
+
+.purple-half{
+    width: 25%;
+    height: 300px;
+    background-color: #63458a;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.ajustado{
+    margin-left:20%; 
+    margin-right: 20%;
+}
+
+.container-light-purple{
+    margin-left:20%; 
+    margin-right: 30%;
+    display: flex;
+}
+
+.descricao{
+    margin: 2px;
+}
+
+.container-secao3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+
+.light-purple-opcoes{
+   
+    background-color: #e4b7e5;
+    color: #63458a;
+    width: 36%;
+    padding-top: 60px;
+
+}
+
+.light-purple-opcoes{
+   
+    background-color: #e4b7e5;
+    color: #63458a;
+    width: 36%;
+    padding-top: 60px;
+
+}
+
+.paragrafos-personalidade p{
+    font-size: 20px;
+    color: #63458a;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.ajustado>div{
+    margin: 20px;
+}
+
+.container img{
+    width: 200px;
+    height: 250px;
+}
+
+.paragrafos-personalidade-2 p{
+    font-size: 20px;
+    color: #63458a;
+    margin: 0 auto;
+    margin-top: 18px;
+
+}
+
+.secao1 h2{
+    color: #63458a;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.light-purple img{
+    width: 140px;
+    height: 140px;
+    margin-right: 10%;
+}
+
+.perfil-mulher h1{
+    font-size: 60px;
+    text-align: center; 
+
+    color: antiquewhite;
+
+}
+
+.logo-footer{
+    width: 30%;
+    margin-left: 185px;
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo-footer p{
+    color: antiquewhite;
+}
+
+.footer-lista{
+    padding-top: 50px;
+    color: antiquewhite;
+
+}
+
+.footer-lista ul{
+    list-style: none;
+}
+
+.footer-logo-pt2{
+
+width: 30px;
+padding-top: 50px;
+
+}
+
+.footer-logo-pt2 img h2{
+    width: 20px;
+}
+footer img {
+    width: 40%;
+    margin-right: 100px;
+
+}
+
+.copyright{
+   margin-top: 100px;
+}
+
+}

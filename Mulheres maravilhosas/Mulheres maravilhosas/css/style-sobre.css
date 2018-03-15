@@ -1,0 +1,338 @@
+html{
+    font-family: 'Montserrat', 'Roboto';
+}
+
+nav{
+    background-color: #63458a;   
+    font-size: 20%;
+    color: antiquewhite;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-content: center;
+    display: none;
+
+}
+
+.hamburger{
+    display: inline-block;
+}
+
+li a{
+    color: antiquewhite;
+    text-decoration: none;
+    margin: 30%;
+
+}
+
+ul li{
+    align-content: flex-start;
+    text-align: center;
+}
+
+header{
+    background: url(../img/bg-banner-escuro.png);
+    min-height: 70%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+
+}
+
+.logo img{
+    width: 20%;
+}
+
+
+.content-header-sobre h1{
+    font-size: 30px;
+    text-align: center; 
+
+    color: antiquewhite;
+}
+
+.informacoes-gerais{
+    width: 100%;
+
+}
+
+.informacoes-gerais h2{
+    text-align: center;
+    color:#63458a;
+    padding-top: 10%;
+
+}
+
+.purple{
+    width: 360px;
+    height: 100px;
+    background-color: #63458a;
+}
+
+.paragrafos h5, p{
+    color: #63458a;
+    text-align: left;
+}
+
+.percentuais{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.paragrafos{
+    width:80%;
+    margin-left: 10%;
+}
+
+
+.secao2{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #7e5a9b, #b288c0);
+    padding: 5%;
+
+}
+
+.secao2 div{
+    display: flex;
+    justify-content: center;
+    width: 32%;
+    align-items: center;
+    flex-direction: column;
+
+  
+}
+
+.secao2 img{
+    width: 45%;
+    padding: 10%;
+
+}
+
+.secao2 h2{
+    color: antiquewhite;
+}
+
+
+.xx{
+    text-align: center;
+    
+}
+footer{
+   
+    background-color: rgb(85, 80, 80);
+    padding: 1%;
+
+    
+}
+
+footer img{
+    width: 40%;
+}
+
+
+
+.footer{
+
+   text-align: center;
+
+}
+
+.footer h3,
+.footer p{
+    text-align: center;
+    color: #d1d1d1;
+    
+}
+
+
+.footer-pt2{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+
+}
+
+.footer-pt2 img{
+    width: 7%;
+    height: 1%;
+    align-items: center;
+    display: flex;
+}
+
+.copyright h4{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+.copyright{
+    background-color: rgb(65, 59, 59);
+    height: 2%;
+    
+}
+
+
+@media (min-width: 1024px){
+
+    html{
+        font-family: 'Montserrat', 'Roboto';
+    }
+    
+    nav{
+        background-color: #63458a;   
+        font-size: 20%;
+        color: antiquewhite;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        align-content: center;
+        
+    
+    }
+    
+    .hamburger{
+        display: none;
+    }
+    
+    li a{
+        color: antiquewhite;
+        text-decoration: none;
+        margin: 30%;
+    
+    }
+    
+    ul li{
+        align-content: flex-start;
+        text-align: center;
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .content-header-sobre h1{
+        font-size: 80px;
+        text-align: center; 
+    
+        color: antiquewhite;
+    }
+    
+
+    .purple{
+        width: 100%;
+        height: 100px;
+        background-color: #63458a;
+    }
+
+    .informacoes-gerais h2{
+        text-align: center;
+        color:#63458a;
+        padding-top: 5%;
+    
+    }
+
+    .container{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    .paragrafos p{
+       font-size: 33px;
+      
+    }
+
+    .paragrafos{
+        width:100%;
+        margin-left: 0%;
+     
+    }
+
+    .paragrafos h5, p{
+        color: #63458a;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .container-estatistica{
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    margin: 0 auto;
+    }
+
+    .conjunto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .conjunto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+    .conjunto3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .estatistica h1{
+        font-size: 70px;
+    }
+
+    .secao2{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(to right, #7e5a9b, #b288c0);
+        padding: 5%;
+    
+    }
+    
+    .secao2 div{
+        display: flex;
+        justify-content: center;
+        width: 16%;
+        align-items: center;
+        flex-direction: column;
+    
+      
+    }
+
+    .conheca-equipe{
+        text-align: center;
+        color:#63458a;
+        padding-top: 5%;
+    }
+
+
+    .content-header-sobre {
+       margin-right: 800px;
+    }
+    
+    
+    
+    
+     
+
+    
+}

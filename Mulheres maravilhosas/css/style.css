@@ -1,0 +1,276 @@
+html{
+    font-family: 'Montserrat', 'Roboto';
+}
+nav{
+    background-color: #63458a;   
+    font-size: 20%;
+    color: antiquewhite;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-content: center;
+    display: none;
+
+}
+
+.hamburger{
+    display: inline-block;
+}
+
+li a{
+    color: antiquewhite;
+    text-decoration: none;
+    margin: 30%;
+
+}
+
+ul li{
+    align-content: flex-start;
+    text-align: center;
+}
+.logo img{
+    width: 20%;
+}
+
+.hamburger {
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+}
+
+
+header{
+    background: url(../img/bg-banner-claro.png);
+    min-height: 70%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+
+}
+
+.content-header{
+    width: 45%;
+}
+
+
+.content-header h1{
+    font-size: 120%;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.content-header p{
+    font-size: 65%;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.content-header input{
+    background-color: #b288c0;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.principal img{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+.principal div{
+    width: 50%;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+}
+
+.principal{
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    background: linear-gradient(to right, #7e5a9b, #b288c0);
+
+}
+
+.principal p{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 85%;
+    width:55%;
+}
+
+.secao3 >div {
+   
+   
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.container img{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+
+.secao2 div{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    align-items: center;
+    flex-direction: column;
+
+    
+
+}
+
+.secao2 img{
+    width: 80%;
+    border-radius: 10%;
+
+}
+
+.secao2{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    
+
+}
+
+
+.secao2 h2{
+    color: #7e5a9b;
+    text-align: center;
+}
+
+.secao2 input{
+    background-color: #b288c0;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+.secao3{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    background-color: #63458a;
+    padding: 5%;
+
+}
+
+.secao3 div{
+    display: flex;
+    justify-content: center;
+    width: 32%;
+    align-items: center;
+    flex-direction: column;
+
+  
+}
+
+.secao3 img{
+    width: 80%;
+    padding: 10%;
+
+}
+
+.secao3 input{
+    background-color: #b288c0;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+
+.secao3 h2{
+    color:antiquewhite;
+    text-align: center;
+}
+
+
+footer{
+   
+    background-color: rgb(85, 80, 80);
+    padding: 1%;
+
+    
+}
+
+footer img{
+    width: 40%;
+}
+
+
+
+.footer{
+
+   text-align: center;
+
+}
+
+.footer h3, p{
+    text-align: center;
+    color: #d1d1d1;
+    
+}
+
+
+.footer-pt2{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+
+}
+
+.footer-pt2 img{
+    width: 7%;
+    height: 1%;
+    align-items: center;
+    display: flex;
+}
+
+.copyright h4{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+.copyright{
+    background-color: rgb(65, 59, 59);
+    height: 2%;
+    
+}
+
+
+
+
+
+
+
+

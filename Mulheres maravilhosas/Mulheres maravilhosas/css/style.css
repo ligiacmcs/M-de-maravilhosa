@@ -1,0 +1,597 @@
+html{
+    font-family: 'Montserrat', 'Roboto';
+}
+
+nav{
+    background-color: #63458a;   
+    font-size: 20%;
+    color: antiquewhite;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-content: center;
+    display: none;
+
+}
+
+.hamburger{
+    display: inline-block;
+}
+
+li a{
+    color: antiquewhite;
+    text-decoration: none;
+
+
+}
+
+ul li{
+    align-content: flex-start;
+    text-align: center;
+    margin-left: 20px;
+}
+.logo img{
+    width: 20%;
+}
+
+.hamburger {
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+}
+
+
+header{
+    background: url(../img/bg-banner-claro.png);
+    min-height: 25vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+
+}
+
+.content-header{
+    width: 55%;
+    
+}
+
+
+.content-header h1{
+    font-size: 20px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.content-header p{
+    font-size: 65%;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.content-header input{
+    background-color: #b288c0;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    border-radius: 10%;
+    margin: 0 auto;
+
+
+}
+
+.principal img{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+.principal div{
+    width: 50%;
+    display: inline-block;
+    align-items: center;
+    display: flex;
+}
+
+.principal{
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    background: linear-gradient(to right, #7e5a9b, #b288c0);
+
+}
+
+.principal p{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 85%;
+    width:55%;
+}
+
+.secao3 >div {
+   
+   
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.container img{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+}
+
+.secao2 div{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    align-items: center;
+    flex-direction: column;
+
+    
+
+}
+
+.secao2 img{
+    width: 80%;
+    border-radius: 10%;
+
+}
+
+.secao2{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    
+
+}
+
+
+section > h2{
+    color: #7e5a9b;
+    text-align: center;
+}
+
+.secao2 input{
+    background-color: #b288c0;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+
+}
+
+.btn{
+
+
+    background-color: #b288c0;
+    color: antiquewhite;
+    width: 188px;
+    padding: 8px;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10%;
+    align-items: center;
+    display: flex;
+    
+
+}
+
+
+
+
+
+.secao3{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    background-color: #63458a;
+    padding: 5%;
+
+}
+
+.secao3 div{
+    display: flex;
+    justify-content: center;
+    width: 32%;
+    align-items: center;
+    flex-direction: column;
+
+  
+}
+
+.secao3 img{
+    width: 80%;
+    padding: 10%;
+
+}
+
+.secao3 input{
+    background-color: #b288c0;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+
+.secao3 h2{
+    color:antiquewhite;
+    text-align: center;
+}
+
+
+footer{
+   
+    background-color: rgb(85, 80, 80);
+    padding: 1%;
+
+    
+}
+
+footer img{
+    width: 40%;
+}
+
+
+
+.footer{
+
+   text-align: center;
+
+}
+
+.footer h3, p{
+    text-align: center;
+    color: #d1d1d1;
+    
+}
+
+
+.footer-pt2{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+
+}
+
+.footer-pt2 img{
+    width: 7%;
+    height: 1%;
+    align-items: center;
+    display: flex;
+}
+
+.copyright h4{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+.copyright{
+    background-color: rgb(65, 59, 59);
+    height: 2%;
+    
+}
+
+
+@media (min-width: 1024px){
+
+    nav{
+        background-color: #63458a;   
+        font-size: 30%;
+        color: antiquewhite;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        align-content: center;
+    
+    }
+
+    header{
+        background: url(../img/bg-banner-claro.png);
+        min-height: 25vh;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+    
+    }
+    
+    .hamburger{
+        display: none;
+    }
+    
+    li a{
+        color: antiquewhite;
+        text-decoration: none;
+        display: flex;
+        font-size: 9px;
+        
+    
+    }
+    
+    ul li{
+        align-content: flex-start;
+        text-align: center;
+        margin: 5%;
+        font-size: 30px;
+    }
+    .logo img{
+        width: 30%;
+    }
+
+    .content-header{
+        width: 45%;
+        margin-right: 30%;
+        padding-top: 10%;
+    }
+    
+    
+    .content-header h1{
+        font-size: 30px;
+        text-align: left;
+        color: antiquewhite;
+    }
+    
+    .content-header p{
+        font-size: 20px;
+        text-align: left;
+        color: antiquewhite;
+    }
+    
+    .content-header input{
+        background-color: #b288c0;
+        color: antiquewhite;
+        display: flex;
+        margin: 0 auto;
+        padding: 2%;
+        width: 240px;
+        text-align: center;
+        font-size: 20px;
+        margin-right: 70%;
+    
+    
+    }
+
+    .principal img{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    
+    
+    }
+    
+    
+    
+    .principal div{
+        width: 50%;
+        display: inline-block;
+        align-items: center;
+        display: flex;
+    }
+    
+    .principal{
+        align-items: center;
+        display: flex;
+        flex-flow: column;
+        background: linear-gradient(to right, #7e5a9b, #b288c0);
+    
+    }
+    
+    .principal p{
+        text-align: center;
+        color: antiquewhite;
+        font-size: 20px;
+        width:55%;
+    }
+
+
+.secao-conteiner h2{
+    color: #63458a;
+    text-align: center;
+}
+    
+.secao3 >div {
+   
+   
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.container img{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+
+}
+
+.secao2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+
+}
+
+.secao2 img{
+    width: 40%;
+    border-radius: 10%;
+
+}
+
+.secao2{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    
+
+}
+
+
+.secao2 h2{
+    color: #7e5a9b;
+    text-align: center;
+}
+
+.secao2 input{
+    background-color: #b288c0;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    width: 150px;
+
+
+}
+
+.btn{
+
+
+    background-color: #b288c0;
+    color: antiquewhite;
+    width: 188px;
+    padding: 8px;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10%;
+    align-items: center;
+    display: flex;
+    
+
+}
+
+
+
+
+.secao-container3 h2{
+    text-align: center;
+    color: #63458a;
+}
+
+.secao3{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    background-color: #63458a;
+    padding: 5%;
+
+}
+
+.secao3 div{
+    display: flex;
+    justify-content: center;
+    width: 16%;
+    align-items: center;
+    flex-direction: column;
+
+  
+}
+
+.secao3 img{
+    width: 60%;
+    padding: 10%;
+
+
+}
+
+.secao3 input{
+    background-color: #b288c0;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+
+.secao3 h2{
+    color:antiquewhite;
+    text-align: center;
+}
+
+
+footer div{
+   
+    background-color: rgb(85, 80, 80);
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+footer img{
+    width: 10%;
+}
+
+
+
+.footer{
+
+   text-align: center;
+
+}
+
+.footer h3, p{
+    text-align: center;
+    color: #d1d1d1;
+    
+}
+
+
+.footer-pt2 div{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+
+}
+
+.footer-pt2 img{
+    width: 2%;
+    height: 1%;
+    align-items: center;
+    display: flex;
+}
+
+.copyright h4{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 7px;
+}
+
+
+.copyright{
+    background-color: rgb(65, 59, 59);
+    height: 2%;
+    
+}
+
+}

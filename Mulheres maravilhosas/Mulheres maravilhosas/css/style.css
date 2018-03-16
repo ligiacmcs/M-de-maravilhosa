@@ -393,6 +393,7 @@ footer img{
         display: flex;
     }
     
+    /*  */
     .principal{
         align-items: center;
         display: flex;
@@ -495,6 +496,7 @@ footer img{
     color: #63458a;
 }
 
+/*  que legal que seu flex wrap deu certo na prática!  */
 .secao3{
     flex-wrap: wrap;
     display: flex;
